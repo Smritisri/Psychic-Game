@@ -61,7 +61,6 @@
                 computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
                 document.getElementById("Guesses-left").textContent = "Guesses Left: " + guessesLeft;
             }
-
             if(guessesLeft===0){
                 losses++;
                 document.getElementById("losses-text").textContent = losses;;
